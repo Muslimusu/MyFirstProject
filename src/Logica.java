@@ -37,7 +37,7 @@ public class Logica {
 
     public static void check(boolean a, boolean b) throws Exception {
         if (a == b) {
-            throw new Exception("Введите совместимые числа");
+            throw new Exception("Введите числа одного типа");
         }
     }
 
